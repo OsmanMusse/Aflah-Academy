@@ -1,0 +1,91 @@
+header{
+  @extend %main-header;
+  display: flex;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-details{
+     display: inline-flex;
+
+     .phone-img{
+       margin-right: em(16px);
+     }
+
+     span{
+       color: $apple-green;
+       align-self: center;
+
+       &.email-address{
+         margin-left: em(70px);
+       }
+     }
+  } // Closing contact details group
+
+
+  .lang-group{
+    display: inline-flex;
+
+    span{
+      color: $apple-green;
+      align-self: center;
+
+      &.english{
+        margin: 0 em(20px);
+      }
+    }
+
+
+  } // Closing Lang Group
+
+  .social-media{
+    display: flex;
+    margin-left: em(73px);
+
+    a{
+      display: flex;
+    }
+
+    .facebook-logo{
+      width: 8px;
+      margin-right: em(20px);
+    }
+  }
+}
+
+#main-nav{
+
+  padding: 0 em(20px);
+
+.container{
+  padding: 0;
+}
+
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  min-height: 80px;
+
+  ul{
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    font-size: em(16px);
+    color: $tundora;
+    margin-right: em(25px);
+  }
+
+  .search-icon{
+    width: 18px;
+  }
+
+
+}
+
+} // Closing Main-nav
