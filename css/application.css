@@ -671,7 +671,7 @@ header {
       display: flex;
       align-items: center; }
     #main-nav nav li {
-      font-size: 1em;
+      font-size: 0.9375em;
       color: rgba(70, 70, 70, 0.9);
       margin-right: 1.5625em; }
     #main-nav nav .search-icon {
